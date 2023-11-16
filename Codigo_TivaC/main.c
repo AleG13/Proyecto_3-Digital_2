@@ -5,17 +5,12 @@
 #include "inc/tm4c123gh6pm.h"
 #include "inc/hw_memmap.h"
 #include "inc/hw_types.h"
-#include "inc/hw_ints.h"
-#include "driverlib/sysctl.h"
 #include "driverlib/interrupt.h"
-#include "driverlib/gpio.h"
-#include "driverlib/timer.h"
-#include "driverlib/systick.h"
 #include "driverlib/uart.h"
-#include "driverlib/pin_map.h"
-#include "driverlib/debug.h"
-#include "driverlib/adc.h"
-#include "utils/ustdlib.h"
+#include "driverlib/gpio.h"
+#include "driverlib/systick.h"
+#include "driverlib/timer.h"
+
 //Parqueos 
 int p1 = 0;
 int p2 = 0;
